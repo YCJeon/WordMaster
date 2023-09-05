@@ -35,4 +35,13 @@ public class Word {
     public void setMeaning(String meaning) {
         this.meaning = meaning;
     }
+
+    public  String toString(){
+        String level_star = "";
+        for(int i=0; i<level; i++){
+            level_star +="*";
+        }
+        String str = level_star + "  " + word + "  " + meaning;
+        return str;
+    }
 }

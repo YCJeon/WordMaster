@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="186f5cfb-8f8b-44c0-b882-98487553dae5" name="Changes" comment="test">
+    <list default="true" id="186f5cfb-8f8b-44c0-b882-98487553dae5" name="Changes" comment="4번 단어 추가 구현 완료">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordMan.java" afterDir="false" />
     </list>
@@ -59,7 +61,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693907080247</updated>
-      <workItem from="1693907081301" duration="7861000" />
+      <workItem from="1693907081301" duration="10001000" />
     </task>
     <task id="LOCAL-00001" summary="0입력시 프로그램종료&#10;4입력시 단어추가구현&#10;에러사항 - 4입력시 레벨 단어 뜻 입력이 되고나면 에러발생">
       <option name="closed" value="true" />
@@ -93,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693918279697</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="4번 단어 추가 구현 완료">
+      <option name="closed" value="true" />
+      <created>1693918924882</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693918924882</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +136,7 @@
     <MESSAGE value="0입력시 프로그램종료&#10;4입력시 단어추가구현&#10;에러사항 - 4입력시 레벨 단어 뜻 입력이 되고나면 에러발생&#10;&quot;Exception in thread &quot;main&quot; java.lang.NullPointerException: Cannot invoke &quot;java.util.ArrayList.add(Object)&quot; because &quot;this.list&quot; is null&#10; &#9;at org.example.WordCRUD.add(WordCRUD.java:19)&#10; &#9;at org.example.WordMan.select_menu(WordMan.java:29)&#10; &#9;at org.example.Main.main(Main.java:5)&quot;" />
     <MESSAGE value="0입력시 프로그램종료&#10;4입력시 단어추가구현&#10;에러사항 - 4입력시 레벨 단어 뜻 입력이 되고나면 에러발생" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="4번 단어 추가 구현 완료" />
+    <option name="LAST_COMMIT_MESSAGE" value="4번 단어 추가 구현 완료" />
   </component>
 </project>

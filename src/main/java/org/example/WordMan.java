@@ -26,24 +26,37 @@ public class WordMan {
                     + "=> 원하는 메뉴는? ");
             menu = s.nextInt();
             if(menu == 1){ //모든 단어 보기
-
-            } else if (menu == 2) { //수준별 단어 보기
-
-            } else if (menu == 3) { //단어 검색
-
-            } else if (menu == 4) { //단어 추가
-                new WordCRUD().add();
+                System.out.println("---------------------------------------");
+                wordCRUD.printAll();
+                System.out.println("---------------------------------------");
+            }
+            else if (menu == 2) { //수준별 단어 보기
+                break;
+            }
+            else if (menu == 3) { //단어 검색
+                break;
+            }
+            else if (menu == 4) { //단어 추가
+                wordCRUD.add();
                 System.out.println("새 단어가 단어장에 추가되었습니다!!!\n");
-            } else if (menu == 5) { //단어 수정
+            }
+            else if (menu == 5) { //단어 수정
+                break;
 
-            } else if (menu == 6) { //단어 삭제
+            }
+            else if (menu == 6) { //단어 삭제
+                break;
 
-            } else if (menu ==7) { //파일 저장
+            }
+            else if (menu ==7) { //파일 저장
+                break;
 
-            } else if (menu == 0) { //나가기
+            }
+            else if (menu == 0) { //나가기
                 System.out.println("프로그램 종료! 다음에 만나요~");
                 break;
-            }else{
+            }
+            else{
                 System.out.println("메뉴 중에 선택해 주세요.");
             }
 
