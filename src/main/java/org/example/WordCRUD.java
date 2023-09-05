@@ -6,6 +6,9 @@ import java.util.Scanner;
 
 public class WordCRUD implements ICRUD {
     ArrayList<Word> list;
+    WordCRUD(){
+        list = new ArrayList<>();
+    }
     Scanner sc = new Scanner(System.in);
     @Override
     public void add() {

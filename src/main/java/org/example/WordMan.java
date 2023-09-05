@@ -3,6 +3,12 @@ import java.util.Scanner;
 
 public class WordMan {
     Scanner s = new Scanner(System.in);
+
+    WordCRUD wordCRUD;
+    WordMan(){
+        wordCRUD = new WordCRUD();
+    }
+
     public void select_menu(){
         int menu;
         while (true){
