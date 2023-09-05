@@ -12,7 +12,7 @@ public class WordCRUD implements ICRUD {
     Scanner sc = new Scanner(System.in);
     @Override
     public void add() {
-        System.out.print("\n=>난이도(1,2,3) & 새 단어 입력 : ");
+        System.out.print("=>난이도(1,2,3) & 새 단어 입력 : ");
         int level = sc.nextInt();
         String word = sc.nextLine();
         System.out.print("뜻 입력 : ");
@@ -37,9 +37,15 @@ public class WordCRUD implements ICRUD {
 
     }
     public  void printAll(){
-
-        for(int i=0; i<list.size(); i++){
-            System.out.println((i+1 + " "+list.get(i).toString()));
+        if(list.size()==0){
+            System.out.println("단어장에 단어가 없습니다.");
+        }
+        else{
+            System.out.println("---------------------------------------");
+            for(int i=0; i<list.size(); i++){
+                System.out.println((i+1 + " "+list.get(i).toString()));
+            }
+            System.out.println("---------------------------------------");
         }
     }
 }

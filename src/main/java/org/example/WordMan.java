@@ -11,9 +11,9 @@ public class WordMan {
 
     public void select_menu(){
         int menu;
+        System.out.println("*** 영단어 마스터 ***\n");
         while (true){
-            System.out.println("*** 영단어 마스터 ***\n"
-                    + "**********************\n"
+            System.out.println("********************\n"
                     + "1. 모든 단어 보기\n"
                     + "2. 수준별 단어 보기\n"
                     + "3. 단어 검색\n"
@@ -22,38 +22,35 @@ public class WordMan {
                     + "6. 단어 삭제\n"
                     + "7. 파일 저장\n"
                     + "0. 나가기\n"
-                    + "**********************\n"
+                    + "********************\n"
                     + "=> 원하는 메뉴는? ");
             menu = s.nextInt();
             if(menu == 1){ //모든 단어 보기
-                System.out.println("---------------------------------------");
                 wordCRUD.printAll();
-                System.out.println("---------------------------------------");
             }
             else if (menu == 2) { //수준별 단어 보기
-                break;
+                System.out.println("아직 구현되지 않은 기능입니다.");
             }
             else if (menu == 3) { //단어 검색
-                break;
+                System.out.println("아직 구현되지 않은 기능입니다.");
             }
             else if (menu == 4) { //단어 추가
                 wordCRUD.add();
                 System.out.println("새 단어가 단어장에 추가되었습니다!!!\n");
             }
             else if (menu == 5) { //단어 수정
-                break;
+                System.out.println("아직 구현되지 않은 기능입니다.");
 
             }
             else if (menu == 6) { //단어 삭제
-                break;
+                System.out.println("아직 구현되지 않은 기능입니다.");
 
             }
             else if (menu ==7) { //파일 저장
-                break;
+                System.out.println("아직 구현되지 않은 기능입니다.");
 
             }
             else if (menu == 0) { //나가기
-                System.out.println("프로그램 종료! 다음에 만나요~");
                 break;
             }
             else{
@@ -61,6 +58,6 @@ public class WordMan {
             }
 
         }
-
+        System.out.println("프로그램 종료! 다음에 만나요~");
     }
 }
