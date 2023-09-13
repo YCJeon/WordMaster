@@ -49,7 +49,8 @@ public class WordMan {
                 System.out.println("단어 수정이 성공적으로 되었습니다!!");
             }
             else if (menu == 6) { //단어 삭제
-                System.out.println("아직 구현되지 않은 기능입니다.");
+                wordCRUD.delete();
+                System.out.println("선택한 단어 삭제 완료!!!");
 
             }
             else if (menu ==7) { //파일 저장

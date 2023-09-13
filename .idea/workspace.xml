@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="186f5cfb-8f8b-44c0-b882-98487553dae5" name="Changes" comment="수준별 단어 보기 함수 코딩">
+    <list default="true" id="186f5cfb-8f8b-44c0-b882-98487553dae5" name="Changes" comment="수준별 단어 보기 기능 오류수정">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordMan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +69,7 @@
       <workItem from="1693907081301" duration="11130000" />
       <workItem from="1693922593356" duration="789000" />
       <workItem from="1694156682535" duration="3857000" />
-      <workItem from="1694499654587" duration="19217000" />
+      <workItem from="1694499654587" duration="20565000" />
     </task>
     <task id="LOCAL-00001" summary="0입력시 프로그램종료&#10;4입력시 단어추가구현&#10;에러사항 - 4입력시 레벨 단어 뜻 입력이 되고나면 에러발생">
       <option name="closed" value="true" />
@@ -164,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694618324904</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="수준별 단어 보기 함수 코딩">
+      <option name="closed" value="true" />
+      <created>1694618545027</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694618545027</updated>
+    </task>
+    <task id="LOCAL-00014" summary="수준별 단어 보기 기능 오류수정">
+      <option name="closed" value="true" />
+      <created>1694618695262</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694618695262</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +223,7 @@
     <MESSAGE value="파일 저장하기 구현" />
     <MESSAGE value="단어 검색 구현" />
     <MESSAGE value="수준별 단어 보기 함수 코딩" />
-    <option name="LAST_COMMIT_MESSAGE" value="수준별 단어 보기 함수 코딩" />
+    <MESSAGE value="수준별 단어 보기 기능 오류수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="수준별 단어 보기 기능 오류수정" />
   </component>
 </project>
