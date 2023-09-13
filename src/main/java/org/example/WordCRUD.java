@@ -58,6 +58,16 @@ public class WordCRUD implements ICRUD {
 
         return idlist;
     }
+    public void searchId(int level){
+        int j=1;
+        for(int i=0; i<list.size(); i++){
+            if(list.get(i).getLevel()==level){
+                System.out.println(j+list.get(i).toString());
+                j++;
+            }
+        }
+    }
+
     public  void printAll(){
         if(list.size()==0){
             System.out.println("단어장에 단어가 없습니다.");

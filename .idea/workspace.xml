@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="186f5cfb-8f8b-44c0-b882-98487553dae5" name="Changes" comment="파일 저장하기 구현">
+    <list default="true" id="186f5cfb-8f8b-44c0-b882-98487553dae5" name="Changes" comment="단어 검색 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordMan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordMan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +68,7 @@
       <workItem from="1693907081301" duration="11130000" />
       <workItem from="1693922593356" duration="789000" />
       <workItem from="1694156682535" duration="3857000" />
-      <workItem from="1694499654587" duration="17660000" />
+      <workItem from="1694499654587" duration="19036000" />
     </task>
     <task id="LOCAL-00001" summary="0입력시 프로그램종료&#10;4입력시 단어추가구현&#10;에러사항 - 4입력시 레벨 단어 뜻 입력이 되고나면 에러발생">
       <option name="closed" value="true" />
@@ -149,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694605369461</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="단어 검색 구현">
+      <option name="closed" value="true" />
+      <created>1694606340779</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694606340779</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +196,7 @@
     <MESSAGE value="예외상황 처리 및 2주차 과제 완료" />
     <MESSAGE value="단어 파일 불러오기 및 단어 업데이트 함수 구현" />
     <MESSAGE value="파일 저장하기 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="파일 저장하기 구현" />
+    <MESSAGE value="단어 검색 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="단어 검색 구현" />
   </component>
 </project>
