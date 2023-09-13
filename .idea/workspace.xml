@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="186f5cfb-8f8b-44c0-b882-98487553dae5" name="Changes" comment="수준별 단어 보기 기능 오류수정">
+    <list default="true" id="186f5cfb-8f8b-44c0-b882-98487553dae5" name="Changes" comment="단어 삭제 기능 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
@@ -26,6 +26,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;YCJeon&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="481ee01d-dd7b-4482-987e-1d9099d9ccd2" />
+        <option name="url" value="https://github.com/YCJeon/WordMaster.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -40,24 +54,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -69,7 +83,8 @@
       <workItem from="1693907081301" duration="11130000" />
       <workItem from="1693922593356" duration="789000" />
       <workItem from="1694156682535" duration="3857000" />
-      <workItem from="1694499654587" duration="20565000" />
+      <workItem from="1694499654587" duration="20718000" />
+      <workItem from="1694620382860" duration="632000" />
     </task>
     <task id="LOCAL-00001" summary="0입력시 프로그램종료&#10;4입력시 단어추가구현&#10;에러사항 - 4입력시 레벨 단어 뜻 입력이 되고나면 에러발생">
       <option name="closed" value="true" />
@@ -183,7 +198,31 @@
       <option name="project" value="LOCAL" />
       <updated>1694618695262</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="수준별 단어 보기 기능 오류수정">
+      <option name="closed" value="true" />
+      <created>1694620252940</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1694620252941</updated>
+    </task>
+    <task id="LOCAL-00016" summary="수준별 단어 보기 기능 오류수정">
+      <option name="closed" value="true" />
+      <created>1694620279931</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1694620279931</updated>
+    </task>
+    <task id="LOCAL-00017" summary="단어 삭제 기능 추가">
+      <option name="closed" value="true" />
+      <created>1694620307331</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1694620307331</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,6 +263,7 @@
     <MESSAGE value="단어 검색 구현" />
     <MESSAGE value="수준별 단어 보기 함수 코딩" />
     <MESSAGE value="수준별 단어 보기 기능 오류수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="수준별 단어 보기 기능 오류수정" />
+    <MESSAGE value="단어 삭제 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="단어 삭제 기능 추가" />
   </component>
 </project>

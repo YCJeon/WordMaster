@@ -49,9 +49,12 @@ public class WordMan {
                 System.out.println("단어 수정이 성공적으로 되었습니다!!");
             }
             else if (menu == 6) { //단어 삭제
-                wordCRUD.delete();
-                System.out.println("선택한 단어 삭제 완료!!!");
-
+                if(wordCRUD.delete()==0){
+                    System.out.println("선택한 단어 삭제 완료!!!");
+                }
+                else {
+                    System.out.println("단어 삭제가 취소되었습니다.");
+                }
             }
             else if (menu ==7) { //파일 저장
                 wordCRUD.SaveFile();
