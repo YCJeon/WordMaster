@@ -10,6 +10,7 @@ public class WordMan {
     }
 
     public void select_menu(){
+        System.out.println("=> "+wordCRUD.LoadFile()+"개 데이터 로딩 완료!!!");
         int menu;
         System.out.println("*** 영단어 마스터 ***\n");
         while (true){
@@ -39,8 +40,8 @@ public class WordMan {
                 System.out.println("새 단어가 단어장에 추가되었습니다!!!\n");
             }
             else if (menu == 5) { //단어 수정
-                System.out.println("아직 구현되지 않은 기능입니다.");
-
+                int i = wordCRUD.update();
+                System.out.println("단어 수정이 성공적으로 되었습니다!!");
             }
             else if (menu == 6) { //단어 삭제
                 System.out.println("아직 구현되지 않은 기능입니다.");
