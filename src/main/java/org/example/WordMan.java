@@ -33,6 +33,7 @@ public class WordMan {
             else if (menu == 2) { //수준별 단어 보기
                 System.out.println("=> 레벨(1:초급, 2:중급, 3:고급) 선택: ");
                 int level = s.nextInt();
+                wordCRUD.searchId(level);
             }
             else if (menu == 3) { //단어 검색
                 System.out.print("=> 검색할 단어 입력:");
