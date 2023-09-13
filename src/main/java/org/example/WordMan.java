@@ -26,6 +26,7 @@ public class WordMan {
                     + "********************\n"
                     + "=> 원하는 메뉴는? ");
             menu = s.nextInt();
+            s.nextLine();
             if(menu == 1){ //모든 단어 보기
                 wordCRUD.printAll();
             }
@@ -33,7 +34,9 @@ public class WordMan {
                 System.out.println("아직 구현되지 않은 기능입니다.");
             }
             else if (menu == 3) { //단어 검색
-                System.out.println("아직 구현되지 않은 기능입니다.");
+                System.out.print("=> 검색할 단어 입력:");
+                String keyword = s.nextLine();
+                wordCRUD.search(keyword);
             }
             else if (menu == 4) { //단어 추가
                 wordCRUD.add();
