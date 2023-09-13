@@ -40,7 +40,7 @@ public class WordMan {
                 System.out.println("새 단어가 단어장에 추가되었습니다!!!\n");
             }
             else if (menu == 5) { //단어 수정
-                int i = wordCRUD.update();
+                wordCRUD.update();
                 System.out.println("단어 수정이 성공적으로 되었습니다!!");
             }
             else if (menu == 6) { //단어 삭제
@@ -48,8 +48,7 @@ public class WordMan {
 
             }
             else if (menu ==7) { //파일 저장
-                System.out.println("아직 구현되지 않은 기능입니다.");
-
+                wordCRUD.SaveFile();
             }
             else if (menu == 0) { //나가기
                 break;

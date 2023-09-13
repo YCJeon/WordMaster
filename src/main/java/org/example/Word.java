@@ -44,4 +44,9 @@ public class Word {
         String str = level_star + "  " + word + "  " + meaning;
         return str;
     }
+
+    public String toFileString(){
+        String str = this.level+"|"+this.word+"|"+this.meaning;
+        return str;
+    }
 }

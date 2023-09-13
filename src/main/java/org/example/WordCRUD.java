@@ -1,10 +1,6 @@
 package org.example;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.sql.Array;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -27,7 +23,7 @@ public class WordCRUD implements ICRUD {
     }
 
     @Override
-    public int update(){
+    public void update(){
         System.out.print("수정할 단어 검색: ");
         String keyword = sc.nextLine();
         ArrayList<Integer> idlist = this.search(keyword);
@@ -38,7 +34,6 @@ public class WordCRUD implements ICRUD {
         String meaning = sc.nextLine();
         list.get(idlist.get(id-1)).setMeaning(meaning);
 
-        return 0;
     }
 
     @Override
@@ -100,6 +95,15 @@ public class WordCRUD implements ICRUD {
         return num;
     }
     public void SaveFile(){
-
+        try {
+            PrintWriter pw = new PrintWriter(new FileWriter("word.txt"));
+            for(Word word:list){
+                pw.write(word.toFileString()+"\n");
+            }
+            pw.close();
+            System.out.println("모든 단어 파일 저장 완료 !!!");
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

@@ -1,0 +1,22 @@
+1|life|삶,인생
+1|job|일, 직업
+2|probelm|문제
+1|life|삶,인생
+1|get|얻다,이르다,되다
+2|person|사람,인물
+2|take|데려가다,필요로 하다
+3|clothes|옷,의복
+2|live|살다,살아있는
+1|movie|영화
+3|different|다른
+3|activity|활동
+3|important|중요한
+2|example|예,모범
+1|other|다른, 그 밖의
+1|letter|편지,글자
+2|right|옳은,오른쪽의
+1|fire|불,화재
+1|sure|확신하는, 물론
+1|minute|분,순간
+2|too|너무, ~도 또한
+2|part|부분,가르다
