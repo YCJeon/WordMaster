@@ -110,7 +110,6 @@ public class WordCRUD implements ICRUD {
                 line = br.readLine();
                 num++;
             }
-
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
